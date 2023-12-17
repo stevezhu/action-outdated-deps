@@ -7,7 +7,7 @@
     "dependencies"
   ],
   "license": "MIT",
-  "author": "Steve Zhu",
+  "author": "Steve Zhu <4130171+stevezhu@users.noreply.github.com>",
   "main": "./dist/index.js",
   "scripts": {
     "build": "ncc build src/index.ts --license LICENSES.txt"
