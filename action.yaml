@@ -1,0 +1,5 @@
+name: Outdated Dependency Check
+description: Output outdated dependencies to summary
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
