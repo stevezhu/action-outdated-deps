@@ -1,6 +1,6 @@
-import { exec } from 'node:child_process';
+const { exec } = require('node:child_process');
 
-import core from '@actions/core';
+const core = require('@actions/core');
 
 /**
  * References:\

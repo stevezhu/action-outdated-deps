@@ -10,7 +10,7 @@
   "author": "Steve Zhu <4130171+stevezhu@users.noreply.github.com>",
   "main": "./dist/index.js",
   "scripts": {
-    "build": "ncc build src/index.ts --license LICENSES.txt"
+    "build": "ncc build src/index.ts --minify --license LICENSES.txt"
   },
   "dependencies": {
     "@actions/core": "^1.10.1"
